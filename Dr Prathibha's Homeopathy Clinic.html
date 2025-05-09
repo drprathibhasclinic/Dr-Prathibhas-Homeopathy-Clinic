@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr Prathibha's Homeopathy Clinic</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Le+Jour&family=Lora&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Lora', serif;
+      background: linear-gradient(to right, #e6f9ec, #d1f2e1); /* Light green gradient */
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-family: 'Le Jour', serif; /* Updated to Le Jour Serif */
+      font-size: 3em; /* Increased font size */
+      color: #006b38;
+      animation: fadeIn 2s ease-out;
+    }
+
+    header h2 {
+      font-size: 1.5em; /* Increased font size */
+      font-weight: normal;
+      color: #4a774f;
+    }
+
+    /* Fade-in animation for header */
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      color: #006b38;
+      margin-bottom: 10px;
+      font-family: 'Le Jour', serif;
+      font-size: 2em; /* Increased font size */
+    }
+
+    p {
+      line-height: 1.6;
+      font-family: 'Lora', serif;
+      font-weight: bold; /* Bold for better readability */
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #4caf50;
+      color: white;
+      padding: 12px 24px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #3d8b40;
+      transform: scale(1.05);
+    }
+
+    .contact-form {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2em; /* Increased font size */
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      box-sizing: border-box;
+      animation: slideIn 1s ease-out;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .contact-form button {
+      width: 100%;
+      background-color: #4caf50;
+      color: white;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #3d8b40;
+    }
+
+    /* Slide-in animation for form inputs */
+    @keyframes slideIn {
+      0% { opacity: 0; transform: translateX(-100%); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Dr Prathibha's Homeopathy Clinic</h1>
+      <h2>Gentle, Natural Healing with Homeopathy</h2>
+    </header>
+
+    <section>
+      <h3>What is Homeopathy?</h3>
+      <p>Homeopathy is a safe and holistic healing system that works with the body’s natural processes. It focuses on treating the root cause of illness using natural, diluted remedies that are gentle and effective for all age groups.</p>
+    </section>
+
+    <section>
+      <h3>About the Clinic</h3>
+      <p>At Dr Prathibha's Homeopathy Clinic, we believe in treating each patient as a whole — not just the symptoms. Led by Dr. Prathibha Manoj, a dedicated homeopathy practitioner with over 20 years of experience, our clinic provides care that is personalized and rooted in a deep understanding of each patient's unique needs.</p>
+    </section>
+
+    <section>
+      <h3>Our Services</h3>
+      <p>We offer online video and phone consultations allowing you to access expert care from the comfort of your home.</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXYCTwU_e-nVGFu2pFAB74qGkANZeNGLViJW8yvnjtbkEMxQ/viewform" class="button" target="_blank"><i class="fas fa-calendar-alt"></i> Book Appointment</a>
+      <p><a href="conditions.pdf" target="_blank">Find the list of conditions that can be treated here</a></p>
+    </section>
+
+    <section>
+      <h3>Contact Details</h3>
+      <p>Have questions? Reach out to us through the details below.</p>
+      <p><i class="fas fa-phone"></i> Phone: +91 9778484502</p>
+      <p><i class="fas fa-envelope"></i> Email: drprathibhasclinic@gmail.com</p>
+      <p><i class="fas fa-clock"></i> Hours: Monday to Saturday | 5:30 PM – 7:00 PM</p>
+      <p><i class="fas fa-map-marker-alt"></i> Location: <a href="https://maps.app.goo.gl/Af8Hhd4ec6LxcKnG9" target="_blank">View on Google Maps</a></p>
+      <p style="text-align: center;">Online services available</p>
+    </section>
+
+    <section class="contact-form">
+      <h3>Contact Us</h3>
+      <form action="https://formspree.io/f/xldblgey" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </div>
+
+</body>
+</html>
